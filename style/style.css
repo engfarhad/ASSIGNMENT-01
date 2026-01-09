@@ -52,13 +52,16 @@ background-image: url("./assest/hero-bg.png");
 .content{
 max-width: 1360px;
 height: 740px;
-background-color: #f3f0f028;
+background-color: #fbf6f6;
 text-align: center;
  margin: 0 auto;
  padding-top: 100px ;
 
+}
 
-
+#button-top{
+    color: #30B868;
+    border-radius: 90px;
 }
 
 .content button{
@@ -84,10 +87,12 @@ text-align: center;
 }
 .section-button-1{
     margin-top: 20px;
+    gap: 15px;
 }
 
 .middel-content{
     width: 1360px;
+    background-color: #f5f3f3;
 }
 
 section.main-div{
@@ -103,11 +108,11 @@ section.main-div{
    width: 1360px;
    height: 160px;
     text-align: center;
-    margin-top: 50px;
+  padding-top: 50px;
 }
 .card-div{
     display: flex;
-    box-shadow: #272323;
+
 }
 
 .nav-content h1{font-size: 48px;
@@ -115,11 +120,12 @@ section.main-div{
     font-weight: 700;
 }
 .card{
+ 
     width: 322;
     height: 300;
     padding: 24px;
     display: flex;
-    background-color: #d1cccc;
+    background-color: #fbf6f6;
     border-radius: 10;
     flex-direction: column;
     gap: 16px;
@@ -132,7 +138,10 @@ section.main-div{
     height: 32px;
     padding: 10;
     margin: 0 auto;
-    
+    background-color:rgba(249, 85, 85, 1);
+    border-radius: 45px;
+    box-sizing: calc(60 60);
+    text-decoration: ;
 }
     
 
