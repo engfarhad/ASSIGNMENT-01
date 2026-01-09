@@ -44,14 +44,9 @@ nav{
     color: #f3f0f0;
 }
 
-main{
-     
-}
 #main-container.{
     width: 1600px;
-  
- background-image: url("assest/hero-bg.png");
-
+background-image: url("./assest/hero-bg.png");
 
 }
 .content{
@@ -65,8 +60,15 @@ text-align: center;
 
 
 }
+
 .content button{
+    padding:10px 20px ;
+}
+
+.content .button-1{
     padding: 10px 20px;
+    background-color: #30B868;
+
 }
 #img-top-header{padding: 10px;
     
@@ -80,23 +82,14 @@ text-align: center;
     margin: 0 auto;
     margin-bottom:30px ;
 }
-.content .section-button{
-    padding-top: 20px;
+.section-button-1{
+    margin-top: 20px;
 }
 
 .middel-content{
     width: 1360px;
 }
 
-
-
-
-
-
-
-section{
-    background-image: url('assets/hero-bg.png');
-}
 section.main-div{
     margin: 0 auto;
 }
@@ -126,9 +119,7 @@ section.main-div{
     height: 300;
     padding: 24px;
     display: flex;
-    background-color: #ffffff;
-    margin: 80 auto;
-    margin: O auto;
+    background-color: #d1cccc;
     border-radius: 10;
     flex-direction: column;
     gap: 16px;
@@ -140,6 +131,7 @@ section.main-div{
     width: 32px;
     height: 32px;
     padding: 10;
+    margin: 0 auto;
     
 }
     
@@ -175,7 +167,12 @@ section.main-div{
     margin-top: 15px;
 }
 
-
+.ready-think-1 h1{
+    margin-bottom: 20px;
+}
+.ready-think-1 p{
+    margin-bottom:20px;
+}
 
 
 
@@ -185,6 +182,11 @@ section.main-div{
     width: 1360px;
    text-align: center;
    padding: 80px;
+}
+#button-3{
+     border-radius: 4px;
+    background-color: #30B868;
+    margin-bottom: 20px;
 }
 
 .ready-think button{
